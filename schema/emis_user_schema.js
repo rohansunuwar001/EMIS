@@ -1,4 +1,5 @@
-const { default: mongoose } = require("mongoose");
+import mongoose from "mongoose"
+
 
 const emis_user_schema = new mongoose.Schema({
     fullname:{
